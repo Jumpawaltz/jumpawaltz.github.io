@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Jumpawaltz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Sat, 30 May 2020 19:15:13 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2020 07:14:05 +0800</lastBuildDate>
     
 	<atom:link href="http://jumpawaltz.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>基于HUGO的博客平台搭建</title>
+      <link>http://jumpawaltz.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Sun, 31 May 2020 07:14:05 +0800</pubDate>
+      
+      <guid>http://jumpawaltz.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <description>基于HUGO的博客平台搭建 doc
+下载HUGO 点击下载HUGO 将HUGO 添加到path,并 hugo version  测试hugo是否安装好.
+设置位置 hugo new site xxx.github.io-creator  进入目录 cd xxx.github.io-creator  创建心得仓库 git init  下载主题链接 git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke  将主题追加到config.toml echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml  进入config.toml baseURL = &amp;quot;http://jumpawaltz.github./&amp;quot; languageCode = &amp;quot;zh-Hans&amp;quot; title = &amp;quot;Jumpawaltz&amp;quot; theme = &amp;quot;ananke&amp;quot; 建立.gitifnore 文件 /public/ 不提交public以外的文件  编辑你的第一篇博客了  hugo new posts/my-first-post.md  title: &amp;quot;开博大吉&amp;quot; date: 2020-05-30T19:15:13+08:00 draft: false //是否为草稿.false不是 生成静态页面 hugo server -D  打开GitHub 创建 xxx.</description>
+    </item>
     
     <item>
       <title>开博大吉</title>
